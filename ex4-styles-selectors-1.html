@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>style selectors 1</title>
+    <style>
+        ol:first-child > li:nth-child(1) {color: #A4A2FF; background-color: #FFCCB8}
+        ol:first-child > li:nth-child(3) {color: #6C75FF; background-color: #FFCCB8}
+        ol:first-child > li:nth-child(5) {color: #1500A1; background-color: #FFCCB8}
+        ol:last-child > li:nth-child(2) {color: #FFFDDC; background-color: #FF9D6A}
+        ol:last-child > li:nth-child(4) {color: #FFEE76; background-color: #FF9D6A}
+    </style>
+</head>
+<body>
+    <ul>
+        <ol>
+            <li>first</li>
+            <li>second</li>
+            <li>third</li>
+            <li>fourth</li>
+            <li>fifth</li>
+        </ol>
+        <br>
+        <ol>
+            <li>first</li>
+            <li>second</li>
+            <li>third</li>
+            <li>fourth</li>
+            <li>fifth</li>
+        </ol>
+    </ul>
+</body>
+</html>
